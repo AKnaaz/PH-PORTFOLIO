@@ -4,6 +4,7 @@
 /* shared style */
 body{
     font-family: open sans;
+    background-color: #FFF8F3;
 }
 .text-primary{
     color: #FD6E0A;
@@ -28,6 +29,16 @@ body{
     font-size: 20px;
     font-weight: bold;
     padding: 10px 25px;
+}
+.banner-dis{
+    font-size: 18px;
+    font-weight: 300px;
+    color: #757575;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
 }
 
 /* header style */
@@ -77,11 +88,115 @@ nav ul{
     font-size: 85px;
     font-weight: bold;
 }
-.banner-dis{
-    font-size: 18px;
-    font-weight: 300px;
-    color: #757575;
-}
 .banner-img{
     width: 580px;
+}
+
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.item-title{
+    color: #757575;
+    font-weight: 300px;
+}
+.item-dis{
+    font-weight: bold;
+    color: #474747;
+}
+
+/* skills style */
+.skills{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    text-align: left;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume style */
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+.exp-sub-title{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.exp-dis{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 300;
+}
+.exp-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.resume > .section-title{
+    text-align: center;
+}
+.resume-btn{
+    display: block;
+    margin: 0 auto;
+}
+.resume hr{
+    margin: 30px 0px;
+}
+
+/* footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.foot-column{
+    width: 50%;
+}
+.foot-column a img{
+    padding: 20px 10px;
+}
+footer input[type=text], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 300;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
